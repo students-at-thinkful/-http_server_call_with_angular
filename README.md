@@ -12,3 +12,10 @@
 
 * https://en.wikipedia.org/wiki/JSON
 * https://en.wikipedia.org/wiki/Representational_state_transfer
+
+
+```
+$http({ method: 'GET', url: '../../list/entries' })
+  .success(function(data, status) { $scope.items = data; console.log(data); });
+
+```
